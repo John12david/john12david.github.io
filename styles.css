@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #282c34;
-    color: white;
+    background-color: #282c34; /* Dark background for the body */
+    color: white; /* Default text color */
 }
 
 header {
-    background-color: #3e4551;
+    background-color: #3e4551; /* Dark gray for header */
     text-align: center;
     padding: 20px 0;
 }
@@ -18,8 +18,8 @@ header {
 }
 
 .panel {
-    background-color: #3e4551;
-    border: 1px solid #444;
+    background-color: #444; /* Darker gray for panels */
+    border: 1px solid #555; /* Slightly lighter border */
     border-radius: 8px;
     margin: 10px;
     padding: 15px;
@@ -32,8 +32,15 @@ h2 {
 }
 
 .skill {
-    background-color: #444;
+    background-color: #555; /* Lighter gray for skill boxes */
     padding: 10px;
     margin: 5px 0;
     border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #3e4551; /* Same as header */
 }
