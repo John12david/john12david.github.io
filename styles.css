@@ -1,15 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #ffffff; /* Light background for better contrast */
-    color: black; /* Black text for visibility */
+    background-color: white; /* Light background for testing */
+    color: black; /* Dark text for visibility */
 }
 
-
 header {
-    background-color: #ff5722; /* Bright color for header */
+    background-color: orange; /* Bright color for the header */
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .dashboard {
@@ -19,8 +17,8 @@ header {
 }
 
 .panel {
-    background-color: #4e5b62; /* A lighter shade for panels */
-    border: 1px solid #555; /* Lighter border */
+    background-color: lightblue; /* Light blue for panels */
+    border: 1px solid #333; /* Dark border for contrast */
     border-radius: 8px;
     margin: 10px;
     padding: 15px;
@@ -28,20 +26,3 @@ header {
     min-width: 250px; /* Makes the panels responsive */
 }
 
-h2 {
-    margin: 0 0 10px 0;
-}
-
-.skill {
-    background-color: #2196f3; /* Blue for skill boxes */
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 4px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: #3e4551; /* Same as header */
-}
