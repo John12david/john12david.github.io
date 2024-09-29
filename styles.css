@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #282c34; /* Dark background for the body */
-    color: white; /* Default text color */
+    background-color: #ffffff; /* White background for testing */
+    color: black; /* Black text for visibility */
 }
 
 header {
-    background-color: #3e4551; /* Dark gray for header */
+    background-color: #ff5722; /* Bright color for header */
     text-align: center;
     padding: 20px 0;
 }
@@ -18,8 +18,8 @@ header {
 }
 
 .panel {
-    background-color: #444; /* Darker gray for panels */
-    border: 1px solid #555; /* Slightly lighter border */
+    background-color: #cddc39; /* Light green for panels */
+    border: 1px solid #555; /* Border for panels */
     border-radius: 8px;
     margin: 10px;
     padding: 15px;
@@ -32,7 +32,7 @@ h2 {
 }
 
 .skill {
-    background-color: #555; /* Lighter gray for skill boxes */
+    background-color: #2196f3; /* Blue for skill boxes */
     padding: 10px;
     margin: 5px 0;
     border-radius: 4px;
