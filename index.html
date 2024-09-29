@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John David's Performance Testing Portfolio</title>
+    <title>My Performance Testing Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>John David's Performance Testing Portfolio</h1>
+        <h1>Performance Testing Dashboard</h1>
     </header>
-    
-    <section>
-        <h2>About Me</h2>
-        <p>I am a performance tester with experience in testing web and mobile applications using tools like JMeter, Dynatrace, and more. I’m passionate about delivering high-quality performance results.</p>
-    </section>
-    
-    <section class="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Web Application Load Test</strong>: A comprehensive load test using JMeter to assess a banking application’s performance under heavy traffic.</li>
-            <li><strong>Mobile App Stress Test</strong>: Performed a stress test on a mobile app to identify breaking points and improve app stability.</li>
-        </ul>
-    </section>
-    
-    <section class="skills">
-        <h2>Skills & Tools</h2>
-        <ul>
-            <li>JMeter</li>
-            <li>Dynatrace</li>
-            <li>Performance Engineering</li>
-            <li>Load Testing</li>
-            <li>Stress Testing</li>
-        </ul>
-    </section>
-    
+
+    <div class="dashboard">
+        <div class="panel" id="about-me">
+            <h2>About Me</h2>
+            <p>Details about your background, experience, etc.</p>
+        </div>
+
+        <div class="panel" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+            </ul>
+        </div>
+
+        <div class="panel" id="skills">
+            <h2>Skills</h2>
+            <div class="skill" id="jmeter">JMeter</div>
+            <div class="skill" id="dynatrace">Dynatrace</div>
+        </div>
+
+        <div class="panel" id="performance-metrics">
+            <h2>Performance Metrics</h2>
+            <canvas id="performanceChart"></canvas>
+        </div>
+    </div>
+
     <footer>
-        <p>Contact: john.david@example.com</p>
+        <p>Contact: your.email@example.com</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
