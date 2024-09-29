@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #ffffff; /* White background for testing */
+    background-color: #ffffff; /* Light background for better contrast */
     color: black; /* Black text for visibility */
 }
+
 
 header {
     background-color: #ff5722; /* Bright color for header */
@@ -18,8 +19,8 @@ header {
 }
 
 .panel {
-    background-color: #cddc39; /* Light green for panels */
-    border: 1px solid #555; /* Border for panels */
+    background-color: #4e5b62; /* A lighter shade for panels */
+    border: 1px solid #555; /* Lighter border */
     border-radius: 8px;
     margin: 10px;
     padding: 15px;
